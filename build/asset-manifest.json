@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/static/css/main.713fb973.css",
+    "main.js": "/static/js/main.f6d7c291.js",
+    "static/media/coding.png": "/static/media/coding.d2fc7e00071b9300f785.png",
+    "static/media/gray-bg.jpg": "/static/media/gray-bg.8f99552c9d64e91d9ce8.jpg",
+    "static/media/pwd.jpg": "/static/media/pwd.8a15f38cb6a48fde6a6c.jpg",
+    "static/media/tourmanila.jpg": "/static/media/tourmanila.fed5faab0282becb3b1e.jpg",
+    "static/media/bhive.jpg": "/static/media/bhive.60fb3f3c73520d3431a8.jpg",
+    "static/media/libweb.jpg": "/static/media/libweb.72932eb0165c16f47356.jpg",
+    "static/media/lib.jpg": "/static/media/lib.b101d903b5beedfaf704.jpg",
+    "static/media/workit.jpg": "/static/media/workit.1288b3ea73aa9cb96b79.jpg",
+    "static/media/Resume - Lofranco, Patrick William Q.pdf": "/static/media/Resume - Lofranco, Patrick William Q.8d5d1d2b5dc2cda2317e.pdf",
+    "static/media/water.jpg": "/static/media/water.d9ee50b33063a9e35b5a.jpg",
+    "static/media/udmclinic.jpg": "/static/media/udmclinic.c3dbce02251f60188276.jpg",
+    "static/media/tm.png": "/static/media/tm.675e24570f58f98b0bb2.png",
+    "static/media/ci.svg": "/static/media/ci.d80fa59977b9b04d6e679caac8e012f3.svg",
+    "static/media/android.svg": "/static/media/android.788e339b33d2529f5dd04d9328f7721f.svg",
+    "static/media/bs.svg": "/static/media/bs.93fe84041cc1b588f15c332248529333.svg",
+    "static/media/java.svg": "/static/media/java.3d1f1777f72c1a4ca3003a5378491322.svg",
+    "static/media/php.svg": "/static/media/php.099cd051f27e93830fcdb7b1ac05bc40.svg",
+    "static/media/python.svg": "/static/media/python.4298525c028749eb4fa154f8f5bd1931.svg",
+    "static/media/tensorflow.svg": "/static/media/tensorflow.b675fae9e6dd5e9a9cb817ba5088dc4c.svg",
+    "static/media/js.svg": "/static/media/js.fef7215d0d3e578f01ad70419d4c4308.svg",
+    "static/media/firebase.svg": "/static/media/firebase.8f69a13150a1594d8fb73df74f12b548.svg",
+    "static/media/django.svg": "/static/media/django.c53d7b212d9f61013c22718e7ea29987.svg",
+    "index.html": "/index.html",
+    "static/media/dbsql.svg": "/static/media/dbsql.cd8be6bd9e44ce0a5e337760a6968745.svg",
+    "static/media/css.svg": "/static/media/css.315b8fdb9dbf75ae965b80bf368895cd.svg",
+    "static/media/html.svg": "/static/media/html.0107c93943a8f415b5db64ebb0a9d12d.svg",
+    "main.713fb973.css.map": "/static/css/main.713fb973.css.map",
+    "main.f6d7c291.js.map": "/static/js/main.f6d7c291.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.713fb973.css",
+    "static/js/main.f6d7c291.js"
+  ]
+}
