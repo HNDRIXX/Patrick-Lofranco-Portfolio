@@ -26,7 +26,6 @@ html,body{
     background-repeat: initial;
     background-size: cover;
     overflow-x: hidden;
-    scroll-behavior: smooth;
 }
 
 /* .container{
@@ -503,10 +502,6 @@ img{
         width: 80vw;
     }
 
-    .imgPrj1:hover{
-        transform: scale(1.0);
-    }
-    
     .mobileproject-display{
         display: block;
         justify-content: center;
@@ -528,9 +523,6 @@ img{
         text-align-last: left;
     }
 
-    .mobile:hover,.mobile-two:hover{
-        transform: scale(1.0);
-    }    
 }
   
   @media screen and (max-width: 800px) {
@@ -668,10 +660,6 @@ img{
         width: 80vw;
     }
 
-    .imgPrj1:hover{
-        transform: scale(1.0);
-    }
-
     .mobileproject-display{
         display: block;
         justify-content: center;
@@ -692,8 +680,4 @@ img{
         text-justify: distribute;
         text-align-last: left;
     }
-
-    .mobile:hover,.mobile-two:hover{
-        transform: scale(1.0);
-    }    
   }

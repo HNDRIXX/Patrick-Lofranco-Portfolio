@@ -285,7 +285,7 @@ function App()  {
                                 title="Top Places in Manila Web Guide"
                                 description={
                                     <>
-                                        Top Places in Manila Web Guide is my first website that I developed, a website that lists the most popular and rated places in Manila. This website has wonderful photographs and presentations of all the prominent places in Manila. includes a map locator to show tourists and users where the exact location is.
+                                        Top Places in Manila Web Guide was my first website that i developed, a website that lists the most popular and rated places in Manila. This website has wonderful photographs and presentations of all the prominent places in Manila. includes a map locator to show tourists and users where the exact location is.
                                     </>
                                 }
                                 techStack={[htmlIcon, cssIcon, jsIcon]}
