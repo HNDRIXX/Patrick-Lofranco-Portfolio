@@ -391,7 +391,7 @@ img{
 #text-line{
     display: none;
 }
-
+/* 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
 
     .text-container{
@@ -406,7 +406,6 @@ img{
         width: 100vw;
         transform: translateY(11%);
         background: #fff;
-        /* padding: 5em; */
         text-align: center;
     }
 
@@ -458,8 +457,6 @@ img{
     .project-display{
         display: contents;
         justify-content: center;
-        /* position: relative;
-        top: 6.5em; */
         align-items: center;
         margin-bottom: 50px;
         width: 10vw;
@@ -505,8 +502,6 @@ img{
     .mobileproject-display{
         display: block;
         justify-content: center;
-        /* position: relative;
-        top: 6.5em; */
         align-items: center;
         margin-left: 0em;
         width: 80vw;
@@ -529,11 +524,8 @@ img{
     
     .greet-container{
         display: flex;
-        /* position: relative;
-        top: 6.5em; */
         align-items: center;
         width: 95vw;
-        /* margin-top: 38em; */
         padding: 50px;
     }
     
@@ -559,7 +551,6 @@ img{
         width: 100vw;
         transform: translateY(9%);
         background: #fff;
-        /* padding: 5em; */
         text-align: center;
     }
 
@@ -582,7 +573,6 @@ img{
         width: 11.6em;
         height: 3em;
         line-height: 2em;
-        /* margin: 20px; */
         font-size: 14px;
         position: relative;
     }
@@ -611,8 +601,6 @@ img{
     .project-display{
         display: contents;
         justify-content: center;
-        /* position: relative;
-        top: 6.5em; */
         align-items: center;
         margin-bottom: 50px;
         width: 10vw;
@@ -643,7 +631,6 @@ img{
 
     .tech-stack a{
         margin: 0px;
-        /* margin-right: 6em; */
         float: none;   
     }
     
@@ -663,8 +650,6 @@ img{
     .mobileproject-display{
         display: block;
         justify-content: center;
-        /* position: relative;
-        top: 6.5em; */
         align-items: center;
         margin-left: 0em;
         width: 80vw;
@@ -680,4 +665,4 @@ img{
         text-justify: distribute;
         text-align-last: left;
     }
-  }
+  } */
