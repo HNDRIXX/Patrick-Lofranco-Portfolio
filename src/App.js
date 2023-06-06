@@ -121,7 +121,7 @@ function App()  {
             <section>
                 <div className='greet-container'>
                     <div className="text-container">
-                        <span id="text"><b>HELLO!</b><br/>I'm <b>Patrick William Lofranco</b></span><br/>
+                        <span id="text"><b id='hello'>HELLO!</b><br/>I'm <b>Patrick William Lofranco</b></span><br/>
                         <span id="sub-text">
                             <ReactTyped
                                 strings={[
@@ -276,6 +276,7 @@ function App()  {
                                     </>
                                 }
                                 techStack={[htmlIcon, cssIcon, jsIcon, phpIcon, sqlDbIcon]}
+                                gitLink="https://github.com/HNDRIXX/PuriWater/blob/main/-%20Sample%20Pictures/01.Login.jpg"
                             />
                         </FadeInSection>
                         
@@ -289,6 +290,7 @@ function App()  {
                                     </>
                                 }
                                 techStack={[htmlIcon, cssIcon, jsIcon]}
+                                gitLink="https://github.com/HNDRIXX/Manila-Web-Guide/blob/main/-%20Sample%20Pictures/01.Index.jpg"
                             />
                         </FadeInSection>
                     </div>
