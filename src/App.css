@@ -787,7 +787,7 @@ img{
     }    
 
     .contacts{
-        padding-left: 2%;
+        padding-left: 0%;
         padding-right: 0%;
         text-align: justify;
         text-justify: distribute;
@@ -800,7 +800,7 @@ img{
     }
 
     .contacts p{
-        width: 83vw;
+        width: 75vw;
         font-size: 11.5px;
     }
 
