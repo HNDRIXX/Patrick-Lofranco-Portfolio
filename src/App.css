@@ -88,7 +88,7 @@ img{
 }
 
 .content-container{
-    padding: 4em;
+    padding: 4.5em;
     max-width: 100%;
     width: 100%;
     transform: translateY(8%);
@@ -102,12 +102,14 @@ img{
 }
 
 .about{
-    font-size: 1.1vw;
+    font-size: 1vw;
+    text-align: justify;
     transform: translateY(10%);
     height: 65vh;
 }
 
 .about p{
+    display: inline-block;
     margin-bottom: 2em;
 }
 
@@ -154,7 +156,8 @@ img{
 }
 
 .about, .projects{
-    padding-right: 9%;
+    padding-right: 11%;
+    display: inline-block;
 }
 
 .about h1{
@@ -165,6 +168,7 @@ img{
 .projects h1{
     margin-top: 3.8em;
     margin-bottom: 1.5em;
+    margin-left: -2.5em;
 }
 
 .project-display{
@@ -392,6 +396,40 @@ img{
     display: none;
 }
 
+.contacts{
+    text-align: center;
+    padding-right: 9%;
+}
+
+.contacts h1{
+    margin-top: 3.8em;
+    padding: 10px;
+}
+
+.contacts-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contacts p{
+    width: 50vw;
+    display: inline-block;
+}
+
+.contacts-button img{
+    width: 90px;
+    padding: 20px;
+}
+
+.contacts-button img:hover{
+    transform: scale(1.1);
+}
+
+#gitImg{
+    width: 85px;
+}
+
 @media screen and (min-width: 768px) and (max-width: 1023px) {
 
     .text-container{
@@ -401,13 +439,12 @@ img{
     }
 
     .content-container{
-        padding-left: 9vmin;
+        padding-left: 10vmin;
         max-width: 100%;
         width: 100vw;
+        display: inline-block;
         transform: translateY(11%);
         background: #fff;
-        /* padding: 5em; */
-        text-align: center;
     }
 
     #hello{
@@ -437,6 +474,7 @@ img{
     }
 
     .about p{
+        width: 80vw;
         margin-bottom: 30px;
     }
 
@@ -453,11 +491,16 @@ img{
     }
 
     .about, .projects{
-        padding-right: 3.5%;
-        width: 80vw;
+        /* padding-right: 3.5%; */
+        /* width: 80vw; */
+        padding-right: 0%;
         text-align: justify;
         text-justify: distribute;
         text-align-last: left;
+    }
+
+    .projects h1{
+        margin-left: 0em;
     }
 
     .project-display{
@@ -535,6 +578,40 @@ img{
     .mobile:hover,.mobile-two:hover{
         transform: scale(1.0);
     }    
+
+    .contacts{
+        padding-right: 0;
+        word-break: break-all;
+        text-align: justify;
+        text-justify: distribute;
+        text-align-last: left;
+    }
+
+    .contacts h1{
+        margin-top: 1.5em;
+        margin-left: -.4em;
+    }
+
+    .contacts p{
+        width: 80vw;
+        font-size: 12px;
+    }
+
+    .contacts-button{
+        display: flex;
+        margin-left: -1em;
+        margin-top: -.5em;
+        justify-content: left;
+    }
+
+    .contacts-button img{
+        padding: 10px;
+        width: 63px;
+    }
+
+    #gitImg{
+        width: 60px;
+    }
 }
   
   @media screen and (max-width: 800px) {
@@ -546,7 +623,7 @@ img{
         align-items: center;
         width: 95vw;
         /* margin-top: 38em; */
-        padding: 50px;
+        padding: 40px;
     }
     
     .text-container{
@@ -556,12 +633,12 @@ img{
     }
 
     #hello{
-        font-size: .8em;
+        font-size: .7em;
         letter-spacing: 1px;
     }
     
     #text{
-        font-size: 7vw;
+        font-size: 1.6em;
         margin-bottom: 0px;
     }
 
@@ -571,13 +648,13 @@ img{
     }
 
     .content-container{
-        padding-left: 9vmin;
+        padding: 2.3em;
+        /* padding-left: 5vmax; */
         max-width: 100%;
         width: 100vw;
+        display: inline-block;
         transform: translateY(9%);
         background: #fff;
-        /* padding: 5em; */
-        text-align: center;
     }
 
     .about{
@@ -592,6 +669,7 @@ img{
     }
 
     .about p{
+        /* width: 79vw; */
         margin-bottom: 30px;
     }
     
@@ -609,6 +687,7 @@ img{
     }
 
     .projects h1{
+        margin-left: 0em;
         margin-top: 6em;
     }
 
@@ -626,6 +705,7 @@ img{
     }
 
     .project-display{
+        /* margin-left: -2em; */
         display: contents;
         justify-content: center;
         /* position: relative;
@@ -705,4 +785,43 @@ img{
     .mobile:hover,.mobile-two:hover{
         transform: scale(1.0);
     }    
+
+    .contacts{
+        padding-left: 2%;
+        padding-right: 0%;
+        text-align: justify;
+        text-justify: distribute;
+        text-align-last: left;
+    }
+
+    .contacts h1{
+        margin-top: 1.5em;
+        margin-left: -.4em;
+    }
+
+    .contacts p{
+        width: 83vw;
+        font-size: 11.5px;
+    }
+
+    .contacts-button{
+        display: flex;
+        margin-left: -.6em;
+        margin-top: -.5em;
+        justify-content: left;
+    }
+
+    .contacts-button span{
+        font-size: 2.3em;
+        font-weight: bold;
+    }
+
+    .contacts-button img{
+        padding: 10px;
+        width: 63px;
+    }
+
+    #gitImg{
+        width: 60px;
+    }
   }

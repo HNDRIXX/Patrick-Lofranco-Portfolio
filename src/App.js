@@ -29,6 +29,11 @@ import pythonIcon from './assets/python.svg'
 import djIcon from './assets/django.svg'
 import gitIcon from './assets/github1.png'
 import resumeFile from './assets/Resume - Lofranco, Patrick William Q.pdf'
+import fbIcon from './assets/fb.svg'
+import gmailIcon from './assets/gmail.svg'
+import ghubIcon from './assets/ghub.svg'
+
+
 import Navbar from './components/NavBar/NavBar'
 import ReactTyped from 'react-typed'
 // import TypewriterEffect from './components/TypeWriter/TypeWriter';
@@ -143,7 +148,7 @@ function App()  {
                     <FadeInSection>
                         <div className='about'>
                             <h1>ABOUT<span id='text-line'>&nbsp;//</span></h1>
-                            
+
                             <p>I'm Patrick William Lofranco, and I am a passionate Web Developer, Web Designer, and Programmer. With a strong foundation in these fields, I strive to create exceptional digital experiences that combine functionality, aesthetics, and user satisfaction.<br/><br/>
                             Furthermore, my programming skills allow me to take on complex projects and develop customized solutions tailored to specific needs. I enjoy the challenge of problem-solving and take pride in writing clean and efficient code. Whether it's building interactive web applications or optimizing existing systems, I am committed to delivering high-quality solutions.</p>
                             <a className='btn' href={resumeFile} download>Download Resume</a>
@@ -294,6 +299,19 @@ function App()  {
                             />
                         </FadeInSection>
                     </div>
+
+                    <FadeInSection>
+                        <div className='contacts'>
+                            <h1>GET IN TOUCH<span id='text-line'>&nbsp;//</span></h1>
+                            <p>Passionate about programming and problem-solving, I'm excited to hear about your project – get in touch, and let's embark on a collaborative coding adventure.</p>
+
+                            <div className='contacts-button'>
+                                <a href='https://www.facebook.com/patrick.lofranco' target="_blank" rel="noopener noreferrer"><img src={fbIcon}/></a>
+                                <a href='https://mail.google.com/mail/?view=cm&to=patricklofranco49@gmail.com' target="_blank" rel="noopener noreferrer"><img src={gmailIcon}/></a>
+                                <a href='https://github.com/HNDRIXX' target="_blank" rel="noopener noreferrer"><img src={ghubIcon} id='gitImg'/></a>
+                            </div>
+                        </div>
+                    </FadeInSection>
                 </div>
             </section>
         </> 

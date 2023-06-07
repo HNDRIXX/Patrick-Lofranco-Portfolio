@@ -65,7 +65,7 @@ a.active,a:hover{
 @media (max-width: 990px){
     label.logo{
         font-size: 30px;
-        padding-left: 50px;
+        padding-left: 35px;
     }
     nav ul li a{
         font-size: 16px;
@@ -110,7 +110,7 @@ a.active,a:hover{
       .ul-tags{
         position: fixed;
         width: 100%;
-        top: 20%;
+        transform: translateY(70%);
       }
 
       ol, ul {
