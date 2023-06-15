@@ -3,75 +3,151 @@
 *{
     padding: 0;
     margin: 0;
+    margin-top: -1px;
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
     transition: ease-in-out .4s;
 }
+.App {
+    text-align: center;
+}
 
-html,body{
-    /* background-image: url("./assets/gray-bg.jpg"); */
-    background-image: 
-    /* top, transparent red */
-    linear-gradient(
-      rgba(44, 44, 44, 0.45), 
-      rgba(32, 32, 32, 0.45)
-    ),
-    /* your image */
-    url(./assets/gray-bg.jpg);
-    height: 60em;
+.actives { 
+    background-color: #2c2c2c !important;
+  }
+  
+.bg-img {
+    background-image: url("assets/bg.jpg");
+    height: 101vh;
     background-position: center;
     background-repeat: no-repeat;
-    background-repeat: initial;
     background-size: cover;
-    overflow-x: hidden;
+    position: relative;
 }
-
-/* .container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-} */
-
-section {
+  
+.overlay {
     position: absolute;
-    top: 10%;
-    /* transform: translate(0, -50%); */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
-.greet-container{
-    display: flex;
-    /* position: relative;
-    top: 6.5em; */
-    align-items: center;
-    width: 95vw;
-    /* margin-top: 38em; */
-    padding: 100px;
+.header-content {
+    position: relative;
+    top: 50%;
+    transform: translateY(-45%);
+    color: #fff;
 }
 
+.section {
+    padding: 100px 0;
+}
+
+.container {
+    max-width: 90vw;
+    margin: 0 auto;
+}
+  
 .text-container{
-    flex: 1;
-    text-align: left;
-    transform: translateY(5em);
+    padding: 100px;
+    text-align: center;
 }
 
 b{
     font-weight: bold;
 }
 
+#hello{
+    font-size: .7em;
+    letter-spacing: 2px;
+}
+
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
 #text{
-    font-size: 2.5em;
+    font-size: 3.4em;
     font-weight: lighter;
     color: #fff;
     margin-bottom: 10px;
+
+    opacity:0;  /* make things invisible upon start */
+    animation:fadeIn ease-in 1;
+    animation-fill-mode:forwards;
+    animation-duration:1s;
+    animation-delay: .5s;
 }
 
 #sub-text{
     line-height: 70px;
-    font-size: 1.8em;
+    font-size: 2.2em;
     color: #e0e0e0;
     font-weight: bolder;
+    text-shadow:1px 1px 10px #2e2e2e, 1px 1px 10px #acacac;
+    opacity:0;  /* make things invisible upon start */
+    animation:fadeIn ease-in 1;
+    animation-fill-mode:forwards;
+    animation-duration:1s;
+    animation-delay: .5s;
+}
+
+#hello {
+    opacity:0;  /* make things invisible upon start */
+    animation:fadeIn ease-in 1;
+    animation-fill-mode:forwards;
+    animation-duration:.8s;
+    animation-delay: .9s;
+}
+
+.more-btn {
+    --color: #fff;
+    text-decoration: none;
+    font-family: inherit;
+    display: inline-block;
+    width: 13em;
+    padding: 15px;
+    /* line-height: 2em; */
+    overflow: hidden;
+    font-size: 17px;
+    z-index: 1;
+    margin-top: 3em;
+    color: var(--color);
+    border: 2px solid var(--color);
+    border-radius: 6px;
+    position: relative;
+}
+
+.more-btn i{
+    padding-left: 10px;
+    transition: none;
+}
+  
+.more-btn::before {
+    position: absolute;
+    content: "";
+    background: var(--color);
+    width: 300px;
+    height: 200px;
+    z-index: -1;
+    border-radius: 50%;
+}
+  
+.more-btn:hover {
+    color: #202020;
+}
+  
+.more-btn:before {
+    top: 100%;
+    left: 100%;
+    transition: .3s all;
+}
+  
+.more-btn:hover::before {
+    top: -30px;
+    left: -40px;
 }
 
 .image{
@@ -87,30 +163,21 @@ img{
     -ms-user-select: none;
 }
 
-.content-container{
-    padding: 4.5em;
-    max-width: 100%;
-    width: 100%;
-    transform: translateY(8%);
-    background: #fff;
-    /* padding: 5em; */
-    text-align: center;
+h1{
+    color: #1b1b1b;
 }
 
-.content-container h1{
-    font-weight: bolder;
-}
-
-.about{
-    font-size: 1vw;
+.about {
+    padding-top: 6em;
     text-align: justify;
-    transform: translateY(10%);
-    height: 65vh;
 }
 
-.about p{
-    display: inline-block;
-    margin-bottom: 2em;
+#about-title, #prj{
+    padding-bottom: .8em;
+}
+
+#prj{
+    padding-top: 1em;
 }
 
 .btn {
@@ -121,7 +188,7 @@ img{
     height: 3em;
     line-height: 2em;
     overflow: hidden;
-    /* margin: 20px; */
+    margin-top: 20px;
     font-size: 17px;
     z-index: 1;
     color: var(--color);
@@ -155,22 +222,6 @@ img{
     left: -40px;
 }
 
-.about, .projects{
-    padding-right: 11%;
-    display: inline-block;
-}
-
-.about h1{
-    margin-top: .4em;
-    margin-bottom: 1em;
-}
-
-.projects h1{
-    margin-top: 3.8em;
-    margin-bottom: 1.5em;
-    margin-left: -2.5em;
-}
-
 .project-display{
     display: flex;
     justify-content: center;
@@ -178,16 +229,14 @@ img{
     top: 6.5em; */
     align-items: center;
     margin-bottom: 50px;
-    width: 100vw;
-    margin-left: -1em;
     transition: 0.3s ease-in-out;
 }
 
 .project-text{
     text-align: left;
     font-size: 1vw;
-    width: 60vw;
-    padding: 50px 140px 50px 30px;
+    /* width: 60vw; */
+    padding: 50px 0px 50px 30px;
 }
 
 .project-text p{
@@ -251,7 +300,7 @@ img{
 .mobileproject-text{
     text-align: left;
     font-size: 1vw;
-    padding: 50px 100px 50px 200px;
+    padding: 50px 100px 50px 80px;
 }
  
 .mobileproject-text p{
@@ -396,15 +445,6 @@ img{
     display: none;
 }
 
-.contacts{
-    text-align: center;
-    padding-right: 9%;
-}
-
-.contacts h1{
-    margin-top: 3.8em;
-    padding: 10px;
-}
 
 .contacts-button{
     display: flex;
@@ -431,22 +471,6 @@ img{
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-
-    .text-container{
-        flex: 1;
-        text-align: left;
-        transform: translateY(6em);
-    }
-
-    .content-container{
-        padding-left: 10vmin;
-        max-width: 100%;
-        width: 100vw;
-        display: inline-block;
-        transform: translateY(11%);
-        background: #fff;
-    }
-
     #hello{
         font-size: .9em;
         letter-spacing: 1px;
@@ -464,24 +488,11 @@ img{
 
     .about{
         font-size: 14px;
-        transform: translateY(10%);
-        height: 100%;
     }
 
     .about h1{
         color: #232526;
         margin-top: -1em;
-    }
-
-    .about p{
-        width: 80vw;
-        margin-bottom: 30px;
-    }
-
-    .btn {
-        width: 11.6em;
-        height: 3em;
-        font-size: 15px;
     }
 
     #text-line{
@@ -490,24 +501,13 @@ img{
         display: contents;
     }
 
-    .about, .projects{
-        /* padding-right: 3.5%; */
-        /* width: 80vw; */
-        padding-right: 0%;
-        text-align: justify;
-        text-justify: distribute;
-        text-align-last: left;
-    }
-
-    .projects h1{
-        margin-left: 0em;
+    #prj{
+        text-align: left;
     }
 
     .project-display{
         display: contents;
         justify-content: center;
-        /* position: relative;
-        top: 6.5em; */
         align-items: center;
         margin-bottom: 50px;
         width: 10vw;
@@ -516,12 +516,10 @@ img{
     .project-text{
         text-align: left;
         font-size: 12px;
-        width: 70vw;
         padding: 50px 0px 50px 0px;
     }
     
     .project-text p{
-        width: 80vw;
         text-align: justify;
         text-justify: distribute;
         text-align-last: left;
@@ -529,7 +527,7 @@ img{
     }
 
     .tech-stack{
-        width: 100vw;
+        width: 100%;
     }
 
     .tech-stack img{
@@ -557,11 +555,9 @@ img{
     .mobileproject-display{
         display: block;
         justify-content: center;
-        /* position: relative;
-        top: 6.5em; */
         align-items: center;
         margin-left: 0em;
-        width: 80vw;
+        width: 100%;
     }
 
     .mobileproject-text{
@@ -579,22 +575,18 @@ img{
         transform: scale(1.0);
     }    
 
+    #contacts{
+        padding: 10px 0px 90px 0px;
+    }
+
     .contacts{
-        padding-right: 0;
-        word-break: break-all;
         text-align: justify;
-        text-justify: distribute;
         text-align-last: left;
     }
 
-    .contacts h1{
-        margin-top: 1.5em;
-        margin-left: -.4em;
-    }
-
     .contacts p{
-        width: 80vw;
-        font-size: 12px;
+        font-size: 14px;
+        width: 90%;
     }
 
     .contacts-button{
@@ -616,20 +608,8 @@ img{
   
   @media screen and (max-width: 800px) {
     
-    .greet-container{
-        display: flex;
-        /* position: relative;
-        top: 6.5em; */
-        align-items: center;
-        width: 95vw;
-        /* margin-top: 38em; */
-        padding: 40px;
-    }
-    
     .text-container{
-        flex: 1;
-        text-align: left;
-        transform: translateY(9em);
+        padding: 10px;
     }
 
     #hello{
@@ -638,41 +618,20 @@ img{
     }
     
     #text{
-        font-size: 1.6em;
+        font-size: 1.9em;
         margin-bottom: 0px;
     }
 
     #sub-text{
         line-height: 50px;
-        font-size: 1.3em;
-    }
-
-    .content-container{
-        padding: 2.3em;
-        /* padding-left: 5vmax; */
-        max-width: 100%;
-        width: 100vw;
-        display: inline-block;
-        transform: translateY(9%);
-        background: #fff;
+        font-size: 1.5em;
     }
 
     .about{
         font-size: 13px;
-        transform: translateY(10%);
-        height: 100%;
     }
 
-    .about h1{
-        color: #232526;
-        margin-top: -1em;
-    }
 
-    .about p{
-        /* width: 79vw; */
-        margin-bottom: 30px;
-    }
-    
     .btn {
         width: 11.6em;
         height: 3em;
@@ -686,10 +645,6 @@ img{
         padding-right: 0%;
     }
 
-    .projects h1{
-        margin-left: 0em;
-        margin-top: 6em;
-    }
 
     #text-line{
         letter-spacing: -1px;
@@ -697,33 +652,30 @@ img{
         display: contents;
     }
 
-    .about, .projects{
-        width: 80vw;
-        text-align: justify;
-        text-justify: distribute;
-        text-align-last: left;
+    #about-title, #prj{
+        text-align: left;
+    }
+
+    #contacts{
+        padding: 50px 0;
     }
 
     .project-display{
         /* margin-left: -2em; */
         display: contents;
-        justify-content: center;
-        /* position: relative;
-        top: 6.5em; */
-        align-items: center;
-        margin-bottom: 50px;
-        width: 10vw;
+        /* margin-bottom: 50px; */
+        /* width: 10vw; */
     }
     
     .project-text{
         text-align: left;
         font-size: 12px;
-        width: 70vw;
+        /* width: 70vw; */
         padding: 50px 0px 50px 0px;
     }
     
     .project-text p{
-        width: 80vw;
+        /* width: 80vw; */
         text-align: justify;
         text-justify: distribute;
         text-align-last: left;
@@ -731,7 +683,7 @@ img{
     }
 
     .tech-stack{
-        width: 100vw;
+        width: 100%;
     }
 
     .tech-stack img{
@@ -740,7 +692,6 @@ img{
 
     .tech-stack a{
         margin: 0px;
-        /* margin-right: 6em; */
         float: none;   
     }
     
@@ -754,7 +705,8 @@ img{
 
     .imgPrj1{
         margin-top: 20px;
-        width: 80vw;
+        width: 83.5vw;
+        display: inline-block;
     }
 
     .imgPrj1:hover{
@@ -768,7 +720,7 @@ img{
         top: 6.5em; */
         align-items: center;
         margin-left: 0em;
-        width: 80vw;
+        width: 100%;
     }
 
     .mobileproject-text{
@@ -786,21 +738,17 @@ img{
         transform: scale(1.0);
     }    
 
+    #contacts{
+        padding: 10px 0px 80px 0px;
+    }
+    
     .contacts{
-        padding-left: 0%;
-        padding-right: 0%;
         text-align: justify;
-        text-justify: distribute;
         text-align-last: left;
     }
 
-    .contacts h1{
-        margin-top: 1.5em;
-        margin-left: -.4em;
-    }
-
     .contacts p{
-        width: 75vw;
+        width: 100%;
         font-size: 11.5px;
     }
 

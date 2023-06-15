@@ -35,6 +35,7 @@ import ghubIcon from './assets/ghub.svg'
 
 
 import Navbar from './components/NavBar/NavBar'
+import ScrollComponent from './components/ScrollComponent/ScrollComponent'; 
 import ReactTyped from 'react-typed'
 // import TypewriterEffect from './components/TypeWriter/TypeWriter';
 import './App.css'
@@ -123,8 +124,10 @@ function App()  {
     return (
         <>
             <Navbar />
-            <section>
-                <div className='greet-container'>
+            <div className="App">
+            <header className="bg-img">
+                <div className="overlay"></div>
+                <div className="header-content">
                     <div className="text-container">
                         <span id="text"><b id='hello'>HELLO!</b><br/>I'm <b>Patrick William Lofranco</b></span><br/>
                         <span id="sub-text">
@@ -139,25 +142,29 @@ function App()  {
                                 backDelay={3000}
                                 loop
                             />
-                        </span>
+                        </span><br/>
+                        <a className='more-btn' href='#about'>More About Me
+                        <i className="fa-solid fa-chevron-down"></i></a>
                     </div>
-                    {/* <img src={imageSrc} className='image' alt='Image'/> */}
                 </div>
-
-                <div className='content-container' id='about'>
+            </header>
+            <section id="about" className="section">
+                <div className="container">
                     <FadeInSection>
                         <div className='about'>
-                            <h1>ABOUT<span id='text-line'>&nbsp;//</span></h1>
+                            <h1 id="about-title"><b>ABOUT</b><span id='text-line'>&nbsp;//</span></h1>
 
                             <p>I'm Patrick William Lofranco, and I am a passionate Web Developer, Web Designer, and Programmer. With a strong foundation in these fields, I strive to create exceptional digital experiences that combine functionality, aesthetics, and user satisfaction.<br/><br/>
                             Furthermore, my programming skills allow me to take on complex projects and develop customized solutions tailored to specific needs. I enjoy the challenge of problem-solving and take pride in writing clean and efficient code. Whether it's building interactive web applications or optimizing existing systems, I am committed to delivering high-quality solutions.</p>
                             <a className='btn' href={resumeFile} download>Download Resume</a>
                         </div>
                     </FadeInSection>
-                    
-                    <div className='projects'>
-                        <FadeInSection>
-                            <h1 id='prj'>PROJECTS<span id='text-line'>&nbsp;//</span></h1>
+                </div>
+            </section>
+            <section id="projects" className="section">
+                <div className="container">
+                <FadeInSection>
+                            <h1 id='prj'><b>PROJECTS</b><span id='text-line'>&nbsp;//</span></h1>
 
                             <div className='mobileproject-display'>
                                 <div className="mobile">
@@ -187,7 +194,7 @@ function App()  {
                                 </div>
                             </div>
                         </FadeInSection>
-                        
+
                         <FadeInSection>
                             <div className='mobileproject-display'>
                                 <div className="mobile-two">
@@ -215,14 +222,14 @@ function App()  {
                                 </div>
                             </div>
                         </FadeInSection>
-                        
+
                         <FadeInSection>
                             <ProjectDisplay
                                 imageSrc={imagePrj}
                                 title="BHive"
                                 description={
                                     <>
-                                        BHive is my On The Job Training Project in DENR EMB MIMAROPA 4B. This system features a interactable Organizational Chart that can be modify, add, sort, and delete for each employee and staff member. The second system within the BHive is a Floor plan Locator, which displays the particular location as well as the inactive and active status of every employee within DENR EMB MIMAROPA 4B.
+                                        BHive is my On The Job Training Project in DENR EMB MIMAROPA 4B. This system features a interactable Organizational Chart that can be modify, add, sort, and delete for each employee and staff member. The second system within the BHive is a Floor plan Locator, which displays the particular location as well as the inactive and active status of every employee that is connected to the face-recognition device of DENR EMB MIMAROPA 4B.
                                     </>
                                 }
                                 techStack={[htmlIcon, cssIcon, bsIcon, jsIcon, ciIcon, sqlDbIcon]}
@@ -243,7 +250,7 @@ function App()  {
                                 gitLink="https://github.com/HNDRIXX/UDM-Clinic/blob/master/-%20Sample%20Pictures/1.Login.jpg"
                             />
                         </FadeInSection>
-                        
+
                         <FadeInSection>
                             <ProjectDisplay
                                 imageSrc={libWebPrj}
@@ -257,7 +264,7 @@ function App()  {
                                 gitLink="https://github.com/HNDRIXX/Library-Web/blob/main/-%20Sample%20Pictures/1.Login.jpg"
                             />
                         </FadeInSection>
-                        
+
                         <FadeInSection>
                             <ProjectDisplay
                                 imageSrc={workitPrj}
@@ -268,6 +275,7 @@ function App()  {
                                     </>
                                 }
                                 techStack={[htmlIcon, cssIcon, jsIcon, phpIcon, sqlDbIcon]}
+                                gitLink="https://github.com/HNDRIXX/WorkIt-Web-Gym-System/blob/main/-%20Sample%20Pictures/01.Login.jpg"
                             />
                         </FadeInSection>
                         
@@ -298,11 +306,13 @@ function App()  {
                                 gitLink="https://github.com/HNDRIXX/Manila-Web-Guide/blob/main/-%20Sample%20Pictures/01.Index.jpg"
                             />
                         </FadeInSection>
-                    </div>
-
+                </div>
+            </section>
+            <section id="contacts" className="section">
+                <div className="container">
                     <FadeInSection>
                         <div className='contacts'>
-                            <h1>GET IN TOUCH<span id='text-line'>&nbsp;//</span></h1>
+                            <h1><b>GET IN TOUCH</b><span id='text-line'>&nbsp;//</span></h1>
                             <p>Passionate about programming and problem-solving, I'm excited to hear about your project – get in touch, and let's embark on a collaborative coding adventure.</p>
 
                             <div className='contacts-button'>
@@ -314,6 +324,10 @@ function App()  {
                     </FadeInSection>
                 </div>
             </section>
+            </div>
+            {/* <section>
+            </section> */}
+            <ScrollComponent />
         </> 
     )   
 }

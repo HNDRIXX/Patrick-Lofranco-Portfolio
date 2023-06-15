@@ -1,29 +1,55 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 import './style.css'
 import { Navbar, Nav } from 'react-bootstrap';
+import $ from 'jquery';
+
+function QueryComponent() {
+  useEffect(() => {
+      let xButton = document.getElementById('xmark')
+      let ul = document.getElementById('ul')
+      let bars = document.getElementById('bars')
+      let aBtn = document.querySelectorAll('#aBtn');
+
+      xButton.addEventListener('click', () => {
+        ul.style.top = '-100em';
+    });
+
+      bars.addEventListener('click', () => {
+          ul.style.top = '0em';
+      });
+
+      aBtn.forEach((button) => {
+        button.addEventListener('click', () => {
+          ul.style.top = '-100em';
+        });
+      });
+}, []);
+}
 
 const AppNavbar = () => {
   const [isNavOpen, setIsNavOpen] = useState(false);
 
   return (
-    <nav>
+    <nav className='fixed-top'>
       <input type="checkbox" id="check" />
       <label htmlFor="check" className="checkbtn">
-        <i className="fas fa-bars"></i>
+        <i id='bars' className="fas fa-bars"></i>
       </label>
       <label className="logo">HNDRX</label>
-      <ul className={isNavOpen ? 'open' : ''}>
-        <i className="fa fa-xmark" onClick={() => setIsNavOpen(!isNavOpen)}></i>
+      <ul id='ul' className={isNavOpen ? 'open' : ''}>
+        <i id='xmark' className="fa fa-xmark" onClick={() => setIsNavOpen(!isNavOpen)}></i>
 
         <div className='ul-tags'>
           <li>
-            <a className="active" href="#" onClick={() => setIsNavOpen(!isNavOpen)}>Home</a>
+            <a id='aBtn' href="#" onClick={() => setIsNavOpen(!isNavOpen)}>Home</a>
           </li>
-          <li><a href="#about" onClick={() => setIsNavOpen(!isNavOpen)}>About</a></li>
-          <li><a href="#prj" onClick={() => setIsNavOpen(!isNavOpen)}>Projects</a></li>
+          <li><a href="#about" id='aBtn' onClick={() => setIsNavOpen(!isNavOpen)}>About</a></li>
+          <li><a href="#projects" id='aBtn' onClick={() => setIsNavOpen(!isNavOpen)}>Projects</a></li>
+          <li><a href="#contacts" id='aBtn' onClick={() => setIsNavOpen(!isNavOpen)}>Contacts</a></li>
         </div>
       </ul>
+      <QueryComponent/>
     </nav>
   );
 };
