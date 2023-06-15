@@ -79,7 +79,7 @@ b{
 }
 
 #name {
-    opacity:0;  /* make things invisible upon start */
+    opacity:0;
     animation:fadeIn ease-in 1;
     animation-fill-mode:forwards;
     animation-duration:.8s;
@@ -94,7 +94,7 @@ b{
     font-weight: bolder;
     text-shadow:1px 1px 10px #2e2e2e, 1px 1px 10px #acacac;
 
-    opacity:0;  /* make things invisible upon start */
+    opacity:0;
     animation:fadeIn ease-in 1;
     animation-fill-mode:forwards;
     animation-duration:.8s;
@@ -103,7 +103,7 @@ b{
 }
 
 #hello {
-    opacity:0;  /* make things invisible upon start */
+    opacity:0;
     animation:fadeIn ease-in 1;
     animation-fill-mode:forwards;
     animation-duration:1s;
@@ -117,7 +117,6 @@ b{
     display: inline-block;
     width: 13em;
     padding: 15px;
-    /* line-height: 2em; */
     overflow: hidden;
     font-size: 17px;
     z-index: 1;
@@ -229,8 +228,6 @@ h1{
 .project-display{
     display: flex;
     justify-content: center;
-    /* position: relative;
-    top: 6.5em; */
     align-items: center;
     margin-bottom: 50px;
     transition: 0.3s ease-in-out;
@@ -239,7 +236,6 @@ h1{
 .project-text{
     text-align: left;
     font-size: 1vw;
-    /* width: 60vw; */
     padding: 50px 0px 50px 30px;
 }
 
@@ -249,10 +245,6 @@ h1{
     text-align-last: left;
     margin-bottom: 1em;
 }
-
-/* .tech-stack{
-    display: flex;
-} */
 
 .tech-stack img{
     width: 30px;
@@ -278,7 +270,6 @@ h1{
 }
 
 .tech-stack a:hover{
-    /* transform: scale(1.1); */
     background: #424242;
 }
 
@@ -294,8 +285,6 @@ h1{
 .mobileproject-display{
     display: flex;
     justify-content: center;
-    /* position: relative;
-    top: 6.5em; */
     align-items: center;
     margin-left: 9.5em;
     width: 80vw;
@@ -327,7 +316,6 @@ h1{
 .mobile:hover,.mobile-two:hover{
     transform: scale(1.1);
 }
-
 
 .mobile img{
     margin-top: 2px;
@@ -473,7 +461,7 @@ h1{
 #gitImg{
     width: 85px;
 }
-
+/* 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     #hello{
         font-size: .9em;
@@ -652,8 +640,6 @@ h1{
     .btn {
         width: 11.6em;
         height: 3em;
-        /* line-height: 2em; */
-        /* margin: 20px; */
         font-size: 14px;
         position: relative;
     }
@@ -678,10 +664,7 @@ h1{
     }
 
     .project-display{
-        /* margin-left: -2em; */
         display: contents;
-        /* margin-bottom: 50px; */
-        /* width: 10vw; */
     }
     
     .project-text{
@@ -733,8 +716,6 @@ h1{
     .mobileproject-display{
         display: block;
         justify-content: center;
-        /* position: relative;
-        top: 6.5em; */
         align-items: center;
         margin-left: 0em;
         width: 100%;
@@ -789,4 +770,4 @@ h1{
     #gitImg{
         width: 60px;
     }
-  }
+  } */
