@@ -10,13 +10,14 @@
     font-family: 'Montserrat', sans-serif;
     transition: ease-in-out .4s;
 }
+
 .App {
     text-align: center;
 }
 
 .actives { 
     background-color: #2c2c2c !important;
-  }
+}
   
 .bg-img {
     background-image: url("assets/bg.jpg");
@@ -62,7 +63,9 @@ b{
 }
 
 #hello{
-    font-size: .7em;
+    display: block;
+    margin-bottom: -2.7em;
+    font-size: .6em;
     letter-spacing: 2px;
 }
 
@@ -73,33 +76,38 @@ b{
     font-weight: lighter;
     color: #fff;
     margin-bottom: 10px;
+}
 
+#name {
     opacity:0;  /* make things invisible upon start */
     animation:fadeIn ease-in 1;
     animation-fill-mode:forwards;
-    animation-duration:1s;
-    animation-delay: .5s;
+    animation-duration:.8s;
+    animation-delay: 1s;
 }
 
 #sub-text{
-    line-height: 70px;
+    display: block;
+    margin-top: -.2em;
     font-size: 2.2em;
     color: #e0e0e0;
     font-weight: bolder;
     text-shadow:1px 1px 10px #2e2e2e, 1px 1px 10px #acacac;
+
     opacity:0;  /* make things invisible upon start */
     animation:fadeIn ease-in 1;
     animation-fill-mode:forwards;
-    animation-duration:1s;
-    animation-delay: .5s;
+    animation-duration:.8s;
+    animation-delay: 1s;
+    
 }
 
 #hello {
     opacity:0;  /* make things invisible upon start */
     animation:fadeIn ease-in 1;
     animation-fill-mode:forwards;
-    animation-duration:.8s;
-    animation-delay: .9s;
+    animation-duration:1s;
+    animation-delay: .5s;
 }
 
 .more-btn {
@@ -174,10 +182,6 @@ h1{
 
 #about-title, #prj{
     padding-bottom: .8em;
-}
-
-#prj{
-    padding-top: 1em;
 }
 
 .btn {
@@ -478,12 +482,16 @@ h1{
 
     #text{
         font-size: 2.3em;
-        margin-bottom: 0px;
     }
 
     #sub-text{
-        line-height: 50px;
         font-size: 1.8em;
+    }
+
+    #hello{
+        font-size: .8em;
+        display: block;
+        margin-bottom: -2em;
     }
 
     .about{
@@ -608,7 +616,7 @@ h1{
   
   @media screen and (max-width: 800px) {
     .header-content {
-        transform: translateY(-53%);
+        transform: translateY(-57%);
     }
 
     .text-container{
@@ -616,7 +624,8 @@ h1{
     }
 
     #hello{
-        font-size: .5em;
+        font-size: .7em;
+        margin-bottom: -2.2em;
         letter-spacing: 1px;
     }
     
@@ -634,10 +643,16 @@ h1{
         font-size: 13px;
     }
 
+    .more-btn{
+        margin-top: 0px;
+        padding: 10px;
+        font-size: 13.5px;
+    }
+
     .btn {
         width: 11.6em;
         height: 3em;
-        line-height: 2em;
+        /* line-height: 2em; */
         /* margin: 20px; */
         font-size: 14px;
         position: relative;

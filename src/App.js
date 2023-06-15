@@ -129,7 +129,7 @@ function App()  {
                 <div className="overlay"></div>
                 <div className="header-content">
                     <div className="text-container">
-                        <span id="text"><b id='hello'>HELLO!</b><br/>I'm <b>Patrick William Lofranco</b></span><br/>
+                        <span id="text"><b id='hello'>HELLO!</b><br/><span id="name">I'm <b>Patrick William Lofranco</b></span></span><br/>
                         <span id="sub-text">
                             <ReactTyped
                                 strings={[
