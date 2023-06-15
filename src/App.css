@@ -607,13 +607,16 @@ h1{
 }
   
   @media screen and (max-width: 800px) {
-    
+    .header-content {
+        transform: translateY(-53%);
+    }
+
     .text-container{
         padding: 10px;
     }
 
     #hello{
-        font-size: .7em;
+        font-size: .5em;
         letter-spacing: 1px;
     }
     
@@ -630,7 +633,6 @@ h1{
     .about{
         font-size: 13px;
     }
-
 
     .btn {
         width: 11.6em;
