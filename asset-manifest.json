@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Patrick-Lofranco-Portfolio/static/css/main.e93586f0.css",
+    "main.css": "/Patrick-Lofranco-Portfolio/static/css/main.285b7fdd.css",
     "main.js": "/Patrick-Lofranco-Portfolio/static/js/main.f84a2bd4.js",
     "static/media/coding.png": "/Patrick-Lofranco-Portfolio/static/media/coding.d2fc7e00071b9300f785.png",
     "static/media/bg.jpg": "/Patrick-Lofranco-Portfolio/static/media/bg.adc4998804274594cba3.jpg",
@@ -31,11 +31,11 @@
     "static/media/gmail.svg": "/Patrick-Lofranco-Portfolio/static/media/gmail.df12d422ac63ab4e30fcb4c437112674.svg",
     "static/media/css.svg": "/Patrick-Lofranco-Portfolio/static/media/css.315b8fdb9dbf75ae965b80bf368895cd.svg",
     "static/media/html.svg": "/Patrick-Lofranco-Portfolio/static/media/html.0107c93943a8f415b5db64ebb0a9d12d.svg",
-    "main.e93586f0.css.map": "/Patrick-Lofranco-Portfolio/static/css/main.e93586f0.css.map",
+    "main.285b7fdd.css.map": "/Patrick-Lofranco-Portfolio/static/css/main.285b7fdd.css.map",
     "main.f84a2bd4.js.map": "/Patrick-Lofranco-Portfolio/static/js/main.f84a2bd4.js.map"
   },
   "entrypoints": [
-    "static/css/main.e93586f0.css",
+    "static/css/main.285b7fdd.css",
     "static/js/main.f84a2bd4.js"
   ]
 }
