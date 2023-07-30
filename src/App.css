@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;800&display=swap');
 
 *{
     padding: 0;
@@ -7,7 +8,7 @@
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
     transition: ease-in-out .4s;
 }
 
@@ -181,7 +182,9 @@ h1{
 }
 
 #about-title, #prj{
+    font-size: 3em;
     padding-bottom: .8em;
+    font-weight: bolder !important;
 }
 
 .btn {
@@ -232,7 +235,7 @@ h1{
     /* position: relative;
     top: 6.5em; */
     align-items: center;
-    margin-bottom: 50px;
+    margin-bottom: 90px;
     transition: 0.3s ease-in-out;
 }
 
@@ -240,7 +243,8 @@ h1{
     text-align: left;
     font-size: 1vw;
     /* width: 60vw; */
-    padding: 50px 0px 50px 30px;
+    padding: 0px 0px 0px 30px;
+    transition: all .4s !important;
 }
 
 .project-text p{
@@ -294,6 +298,7 @@ h1{
 .mobileproject-display{
     display: flex;
     justify-content: center;
+    margin-bottom: 30px;
     /* position: relative;
     top: 6.5em; */
     align-items: center;
@@ -474,7 +479,7 @@ h1{
     width: 85px;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (min-width: 768px) and (max-width: 1210px) {
     #hello{
         font-size: .9em;
         letter-spacing: 1px;
@@ -504,6 +509,7 @@ h1{
     }
 
     #text-line{
+        font-weight: bold;
         letter-spacing: -1px;
         color: #dadada;
         display: contents;
@@ -641,6 +647,7 @@ h1{
 
     .about{
         font-size: 13px;
+        padding-top: 0;
     }
 
     .more-btn{
@@ -658,12 +665,8 @@ h1{
         position: relative;
     }
 
-    .about, .projects{
-        padding-right: 0%;
-    }
-
-
     #text-line{
+        font-weight: bolder;
         letter-spacing: -1px;
         color: #dadada;
         display: contents;
@@ -675,6 +678,10 @@ h1{
 
     #contacts{
         padding: 50px 0;
+    }
+
+    #projects{
+        padding-top: 20px;
     }
 
     .project-display{

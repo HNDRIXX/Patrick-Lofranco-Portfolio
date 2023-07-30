@@ -6,6 +6,7 @@ import React, {useState, useCallback, useEffect} from 'react'
 // import {useCollapse, Collapse} from 'react-collapse';
 import imageSrc from './assets/coding.png';
 import imagePrj from './assets/bhive.jpg';
+import snapsPrj from './assets/snaps.jpg';
 import udmClinicPrj from './assets/udmclinic.jpg';
 import libPrj from './assets/lib.jpg'
 import libWebPrj from './assets/libweb.jpg'
@@ -19,6 +20,8 @@ import jsIcon from './assets/js.svg'
 import ciIcon from './assets/ci.svg'
 import sqlDbIcon from './assets/dbsql.svg'
 import bsIcon from './assets/bs.svg'
+import laravelIcon from './assets/laravel.svg'
+import postgreIcon from './assets/postgre.svg'
 import fireBaseIcon from './assets/firebase.svg'
 import phpIcon from './assets/php.svg'
 import androidIcon from './assets/android.svg'
@@ -33,8 +36,8 @@ import fbIcon from './assets/fb.svg'
 import gmailIcon from './assets/gmail.svg'
 import ghubIcon from './assets/ghub.svg'
 
-
 import Navbar from './components/NavBar/NavBar'
+import WaterDropGrid from './components/WaterDropGrid/WaterDropGrid';
 import ScrollComponent from './components/ScrollComponent/ScrollComponent'; 
 import ReactTyped from 'react-typed'
 // import TypewriterEffect from './components/TypeWriter/TypeWriter';
@@ -135,7 +138,7 @@ function App()  {
                                 strings={[
                                     "Developer.",
                                     "Programmer.",
-                                    "Designer."
+                                    "Web Designer."
                                 ]}
                                 typeSpeed={80}
                                 backSpeed={50}
@@ -181,7 +184,7 @@ function App()  {
                                 
                                 <div className="mobileproject-text">
                                     <h2><b>Mobile Library System Management</b></h2>
-                                    <p>Mobile Library System Management is my Capstone Project, with a focus on utilizing mobile technologies, the aim was to create an effective system that improves the efficiency, accessibility, and overall experience of library management. The application eliminates the need for traditional library trips by providing a streamlined interface for finding, reserving, and borrowing titles. It also contains Artificial Intelligence that can scan a book even detect and determine whether the book is existing and available, as well as provide the specific location and related book recommendations based on what the user scans.</p><br/>
+                                    <p>Mobile Library System Management is my Capstone Project, the aim was to create an effective system that improves the efficiency, accessibility, and overall experience of library management. It also contains Artificial Intelligence that can scan a book even detect and determine whether the book is existing and available, as well as provide the specific location and related book recommendations based on what the user scans.</p><br/>
                                     <div className='tech-stack'>
                                         <img src={androidIcon} title='Android'/>
                                         <img src={javaIcon} title='Java'/>
@@ -229,7 +232,7 @@ function App()  {
                                 title="BHive"
                                 description={
                                     <>
-                                        BHive is my On The Job Training Project in DENR EMB MIMAROPA 4B. This system features a interactable Organizational Chart that can be modify, add, sort, and delete for each employee and staff member. The second system within the BHive is a Floor plan Locator, which displays the particular location as well as the inactive and active status of every employee that is connected to the face-recognition device of DENR EMB MIMAROPA 4B.
+                                        BHive is my On The Job Training Project in DENR EMB MIMAROPA 4B. This system features a interactable Organizational Chart that can be modify, add, sort, and delete for each employee and staff member. With a Floor plan Locator, which displays the particular location and attendance status of every employee that is connected to the face-recognition device.
                                     </>
                                 }
                                 techStack={[htmlIcon, cssIcon, bsIcon, jsIcon, ciIcon, sqlDbIcon]}
@@ -253,6 +256,20 @@ function App()  {
 
                         <FadeInSection>
                             <ProjectDisplay
+                                imageSrc={snapsPrj}
+                                title="Snaps"
+                                description={
+                                    <>
+                                        Welcome to Snaps, your go-to platform for sharing and discovering captivating moments through images. Embrace the joy of storytelling as you post your snapshots in a beautiful feed. Unleash your creativity, one 'Snap' at a time, and let the world be captivated by your visual tales.
+                                    </>
+                                }
+                                techStack={[laravelIcon, bsIcon, postgreIcon]}
+                                gitLink="https://github.com/HNDRIXX/Snaps/blob/main/-%20Sample%20Pictures/04.%20Snap%20Feed(1).jpg"
+                            />
+                        </FadeInSection>
+
+                        <FadeInSection>
+                            <ProjectDisplay
                                 imageSrc={libWebPrj}
                                 title="Web Library Management System"
                                 description={
@@ -271,7 +288,7 @@ function App()  {
                                 title="WorkIT"
                                 description={
                                     <>
-                                        WorkIT Gym Management System is my third-year system project. The goal of this system was to modernize gym operations and member management. This all-inclusive system includes features including membership registration, offering gym training plan packages, attendance tracking, and progress tracking. With its user-friendly interface and advanced reporting features, enables gym owners to efficiently manage their facilities while providing an amazing experience for their members.
+                                        WorkIT Gym Management System is my third-year system project. The goal of this system was to modernize gym operations and member management. This all-inclusive system includes features including membership registration, offering gym training plan packages, attendance tracking, and progress tracking. With its user-friendly interface and advanced reporting features.
                                     </>
                                 }
                                 techStack={[htmlIcon, cssIcon, jsIcon, phpIcon, sqlDbIcon]}

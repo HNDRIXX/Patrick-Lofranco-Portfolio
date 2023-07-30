@@ -12,16 +12,16 @@ function QueryComponent() {
       let aBtn = document.querySelectorAll('#aBtn');
 
       xButton.addEventListener('click', () => {
-        ul.style.top = '-100em';
-    });
+        ul.style.top = '-500em';
+      });
 
       bars.addEventListener('click', () => {
-          ul.style.top = '0em';
+          ul.style.top = '0em'
       });
 
       aBtn.forEach((button) => {
         button.addEventListener('click', () => {
-          ul.style.top = '-100em';
+          ul.style.top = '500em';
         });
       });
 }, []);
@@ -36,19 +36,24 @@ const AppNavbar = () => {
       <label htmlFor="check" className="checkbtn">
         <i id='bars' className="fas fa-bars"></i>
       </label>
-      <label className="logo">HNDRX</label>
-      <ul id='ul' className={isNavOpen ? 'open' : ''}>
-        <i id='xmark' className="fa fa-xmark" onClick={() => setIsNavOpen(!isNavOpen)}></i>
 
-        <div className='ul-tags'>
-          <li>
-            <a id='aBtn' href="#" onClick={() => setIsNavOpen(!isNavOpen)}>Home</a>
-          </li>
-          <li><a href="#about" id='aBtn' onClick={() => setIsNavOpen(!isNavOpen)}>About</a></li>
-          <li><a href="#projects" id='aBtn' onClick={() => setIsNavOpen(!isNavOpen)}>Projects</a></li>
-          <li><a href="#contacts" id='aBtn' onClick={() => setIsNavOpen(!isNavOpen)}>Contacts</a></li>
-        </div>
-      </ul>
+      <div className='nav-wrapper'>
+        <label className="logo">HNDRX</label>
+
+        <ul id='ul' className={isNavOpen ? 'open' : ''}>
+          <i id='xmark' className="fa fa-xmark" onClick={() => setIsNavOpen(!isNavOpen)}></i>
+
+          <div className='ul-tags'>
+            <li>
+              <a id='aBtn' href="#" onClick={() => setIsNavOpen(!isNavOpen)}>Home</a>
+            </li>
+            <li><a href="#about" id='aBtn' onClick={() => setIsNavOpen(!isNavOpen)}>About</a></li>
+            <li><a href="#projects" id='aBtn' onClick={() => setIsNavOpen(!isNavOpen)}>Projects</a></li>
+            <li><a href="#contacts" id='aBtn' onClick={() => setIsNavOpen(!isNavOpen)}>Contacts</a></li>
+          </div>
+        </ul>
+      </div>
+
       <QueryComponent/>
     </nav>
   );
