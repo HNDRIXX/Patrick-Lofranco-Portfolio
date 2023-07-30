@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Patrick-Lofranco-Portfolio/static/css/main.08165766.css",
-    "main.js": "/Patrick-Lofranco-Portfolio/static/js/main.c5e0e17b.js",
+    "main.css": "/Patrick-Lofranco-Portfolio/static/css/main.43f46e81.css",
+    "main.js": "/Patrick-Lofranco-Portfolio/static/js/main.05d5e69c.js",
     "static/media/coding.png": "/Patrick-Lofranco-Portfolio/static/media/coding.d2fc7e00071b9300f785.png",
     "static/media/bg.jpg": "/Patrick-Lofranco-Portfolio/static/media/bg.adc4998804274594cba3.jpg",
     "static/media/pwd.jpg": "/Patrick-Lofranco-Portfolio/static/media/pwd.8a15f38cb6a48fde6a6c.jpg",
@@ -10,15 +10,18 @@
     "static/media/libweb.jpg": "/Patrick-Lofranco-Portfolio/static/media/libweb.72932eb0165c16f47356.jpg",
     "static/media/lib.jpg": "/Patrick-Lofranco-Portfolio/static/media/lib.b101d903b5beedfaf704.jpg",
     "static/media/workit.jpg": "/Patrick-Lofranco-Portfolio/static/media/workit.1288b3ea73aa9cb96b79.jpg",
+    "static/media/snaps.jpg": "/Patrick-Lofranco-Portfolio/static/media/snaps.cb77c148a39b10320208.jpg",
     "static/media/Resume - Lofranco, Patrick William Q.pdf": "/Patrick-Lofranco-Portfolio/static/media/Resume - Lofranco, Patrick William Q.8d5d1d2b5dc2cda2317e.pdf",
     "static/media/water.jpg": "/Patrick-Lofranco-Portfolio/static/media/water.d9ee50b33063a9e35b5a.jpg",
     "static/media/udmclinic.jpg": "/Patrick-Lofranco-Portfolio/static/media/udmclinic.c3dbce02251f60188276.jpg",
     "static/media/tm.png": "/Patrick-Lofranco-Portfolio/static/media/tm.675e24570f58f98b0bb2.png",
     "static/media/ci.svg": "/Patrick-Lofranco-Portfolio/static/media/ci.d80fa59977b9b04d6e679caac8e012f3.svg",
+    "static/media/postgre.svg": "/Patrick-Lofranco-Portfolio/static/media/postgre.5554dfac6639fb169614c251cd1f6bc0.svg",
     "static/media/android.svg": "/Patrick-Lofranco-Portfolio/static/media/android.788e339b33d2529f5dd04d9328f7721f.svg",
     "static/media/bs.svg": "/Patrick-Lofranco-Portfolio/static/media/bs.93fe84041cc1b588f15c332248529333.svg",
     "static/media/java.svg": "/Patrick-Lofranco-Portfolio/static/media/java.3d1f1777f72c1a4ca3003a5378491322.svg",
     "static/media/php.svg": "/Patrick-Lofranco-Portfolio/static/media/php.099cd051f27e93830fcdb7b1ac05bc40.svg",
+    "static/media/laravel.svg": "/Patrick-Lofranco-Portfolio/static/media/laravel.951a0f126e5353479002f12c2f020dc1.svg",
     "static/media/python.svg": "/Patrick-Lofranco-Portfolio/static/media/python.4298525c028749eb4fa154f8f5bd1931.svg",
     "static/media/ghub.svg": "/Patrick-Lofranco-Portfolio/static/media/ghub.5531be85d7a8d6f333e5c7136944a022.svg",
     "static/media/tensorflow.svg": "/Patrick-Lofranco-Portfolio/static/media/tensorflow.b675fae9e6dd5e9a9cb817ba5088dc4c.svg",
@@ -31,11 +34,11 @@
     "static/media/gmail.svg": "/Patrick-Lofranco-Portfolio/static/media/gmail.df12d422ac63ab4e30fcb4c437112674.svg",
     "static/media/css.svg": "/Patrick-Lofranco-Portfolio/static/media/css.315b8fdb9dbf75ae965b80bf368895cd.svg",
     "static/media/html.svg": "/Patrick-Lofranco-Portfolio/static/media/html.0107c93943a8f415b5db64ebb0a9d12d.svg",
-    "main.08165766.css.map": "/Patrick-Lofranco-Portfolio/static/css/main.08165766.css.map",
-    "main.c5e0e17b.js.map": "/Patrick-Lofranco-Portfolio/static/js/main.c5e0e17b.js.map"
+    "main.43f46e81.css.map": "/Patrick-Lofranco-Portfolio/static/css/main.43f46e81.css.map",
+    "main.05d5e69c.js.map": "/Patrick-Lofranco-Portfolio/static/js/main.05d5e69c.js.map"
   },
   "entrypoints": [
-    "static/css/main.08165766.css",
-    "static/js/main.c5e0e17b.js"
+    "static/css/main.43f46e81.css",
+    "static/js/main.05d5e69c.js"
   ]
 }
