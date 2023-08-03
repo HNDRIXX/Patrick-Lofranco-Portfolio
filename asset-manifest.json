@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Patrick-Lofranco-Portfolio/static/css/main.744c6d1c.css",
-    "main.js": "/Patrick-Lofranco-Portfolio/static/js/main.48d88467.js",
+    "main.css": "/Patrick-Lofranco-Portfolio/static/css/main.7fba46dd.css",
+    "main.js": "/Patrick-Lofranco-Portfolio/static/js/main.4a120713.js",
     "static/media/bhive.jpg": "/Patrick-Lofranco-Portfolio/static/media/bhive.8718eebc3569495552d0.jpg",
     "static/media/bg.jpg": "/Patrick-Lofranco-Portfolio/static/media/bg.adc4998804274594cba3.jpg",
     "static/media/pwd.jpg": "/Patrick-Lofranco-Portfolio/static/media/pwd.8a15f38cb6a48fde6a6c.jpg",
@@ -38,11 +38,11 @@
     "static/media/gmail.svg": "/Patrick-Lofranco-Portfolio/static/media/gmail.df12d422ac63ab4e30fcb4c437112674.svg",
     "static/media/css.svg": "/Patrick-Lofranco-Portfolio/static/media/css.315b8fdb9dbf75ae965b80bf368895cd.svg",
     "static/media/html.svg": "/Patrick-Lofranco-Portfolio/static/media/html.0107c93943a8f415b5db64ebb0a9d12d.svg",
-    "main.744c6d1c.css.map": "/Patrick-Lofranco-Portfolio/static/css/main.744c6d1c.css.map",
-    "main.48d88467.js.map": "/Patrick-Lofranco-Portfolio/static/js/main.48d88467.js.map"
+    "main.7fba46dd.css.map": "/Patrick-Lofranco-Portfolio/static/css/main.7fba46dd.css.map",
+    "main.4a120713.js.map": "/Patrick-Lofranco-Portfolio/static/js/main.4a120713.js.map"
   },
   "entrypoints": [
-    "static/css/main.744c6d1c.css",
-    "static/js/main.48d88467.js"
+    "static/css/main.7fba46dd.css",
+    "static/js/main.4a120713.js"
   ]
 }
