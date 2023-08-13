@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Patrick-Lofranco-Portfolio/static/css/main.4f43472d.css",
-    "main.js": "/Patrick-Lofranco-Portfolio/static/js/main.2a3b2347.js",
+    "main.css": "/Patrick-Lofranco-Portfolio/static/css/main.9703b785.css",
+    "main.js": "/Patrick-Lofranco-Portfolio/static/js/main.ee11f022.js",
     "static/media/bhive.jpg": "/Patrick-Lofranco-Portfolio/static/media/bhive.8718eebc3569495552d0.jpg",
     "static/media/bg.jpg": "/Patrick-Lofranco-Portfolio/static/media/bg.adc4998804274594cba3.jpg",
     "static/media/pwd.jpg": "/Patrick-Lofranco-Portfolio/static/media/pwd.8a15f38cb6a48fde6a6c.jpg",
@@ -14,9 +14,12 @@
     "static/media/Resume - Lofranco, Patrick William Q.pdf": "/Patrick-Lofranco-Portfolio/static/media/Resume - Lofranco, Patrick William Q.0613414d7836886193be.pdf",
     "static/media/udmclinic.jpg": "/Patrick-Lofranco-Portfolio/static/media/udmclinic.c3dbce02251f60188276.jpg",
     "static/media/tm.svg": "/Patrick-Lofranco-Portfolio/static/media/tm.9ba52ce76ef6f88ce3057bda5bddc28d.svg",
+    "static/media/react.svg": "/Patrick-Lofranco-Portfolio/static/media/react.5d60cc16a8b1fe5b1fc1cf0487edcc69.svg",
     "static/media/lightghub.svg": "/Patrick-Lofranco-Portfolio/static/media/lightghub.8dc74898ab4cee537b2eaaba4e8f8617.svg",
     "static/media/ci.svg": "/Patrick-Lofranco-Portfolio/static/media/ci.d80fa59977b9b04d6e679caac8e012f3.svg",
+    "static/media/tailwind.svg": "/Patrick-Lofranco-Portfolio/static/media/tailwind.22c6bd8709529a9f6495f02a00a753e9.svg",
     "static/media/lightfb.svg": "/Patrick-Lofranco-Portfolio/static/media/lightfb.26377cb4edf5c6c4de1affbdd88086a5.svg",
+    "static/media/darkbs.svg": "/Patrick-Lofranco-Portfolio/static/media/darkbs.ded7cd3ca46db5fd230072b79c2adb9c.svg",
     "static/media/lightgmail.svg": "/Patrick-Lofranco-Portfolio/static/media/lightgmail.0047627f4333e4e0dac7e9ff0b11a07a.svg",
     "static/media/postgre.svg": "/Patrick-Lofranco-Portfolio/static/media/postgre.5554dfac6639fb169614c251cd1f6bc0.svg",
     "static/media/lightdbsql.svg": "/Patrick-Lofranco-Portfolio/static/media/lightdbsql.c20d1dcfa9e56b6cc91a173b331110f2.svg",
@@ -38,11 +41,11 @@
     "static/media/gmail.svg": "/Patrick-Lofranco-Portfolio/static/media/gmail.df12d422ac63ab4e30fcb4c437112674.svg",
     "static/media/css.svg": "/Patrick-Lofranco-Portfolio/static/media/css.315b8fdb9dbf75ae965b80bf368895cd.svg",
     "static/media/html.svg": "/Patrick-Lofranco-Portfolio/static/media/html.0107c93943a8f415b5db64ebb0a9d12d.svg",
-    "main.4f43472d.css.map": "/Patrick-Lofranco-Portfolio/static/css/main.4f43472d.css.map",
-    "main.2a3b2347.js.map": "/Patrick-Lofranco-Portfolio/static/js/main.2a3b2347.js.map"
+    "main.9703b785.css.map": "/Patrick-Lofranco-Portfolio/static/css/main.9703b785.css.map",
+    "main.ee11f022.js.map": "/Patrick-Lofranco-Portfolio/static/js/main.ee11f022.js.map"
   },
   "entrypoints": [
-    "static/css/main.4f43472d.css",
-    "static/js/main.2a3b2347.js"
+    "static/css/main.9703b785.css",
+    "static/js/main.ee11f022.js"
   ]
 }
