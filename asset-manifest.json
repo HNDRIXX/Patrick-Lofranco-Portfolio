@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Patrick-Lofranco-Portfolio/static/css/main.beea4158.css",
-    "main.js": "/Patrick-Lofranco-Portfolio/static/js/main.8269e6c3.js",
+    "main.js": "/Patrick-Lofranco-Portfolio/static/js/main.a6877e36.js",
     "static/media/bhive.jpg": "/Patrick-Lofranco-Portfolio/static/media/bhive.8718eebc3569495552d0.jpg",
     "static/media/bg.jpg": "/Patrick-Lofranco-Portfolio/static/media/bg.adc4998804274594cba3.jpg",
     "static/media/pwd.jpg": "/Patrick-Lofranco-Portfolio/static/media/pwd.8a15f38cb6a48fde6a6c.jpg",
@@ -11,7 +11,7 @@
     "static/media/workit.jpg": "/Patrick-Lofranco-Portfolio/static/media/workit.1288b3ea73aa9cb96b79.jpg",
     "static/media/snaps.jpg": "/Patrick-Lofranco-Portfolio/static/media/snaps.3b193b6f7d3ff2b0447d.jpg",
     "static/media/water.jpg": "/Patrick-Lofranco-Portfolio/static/media/water.da7e93afa797d4cc2069.jpg",
-    "static/media/Resume - Lofranco, Patrick William Q.pdf": "/Patrick-Lofranco-Portfolio/static/media/Resume - Lofranco, Patrick William Q.0613414d7836886193be.pdf",
+    "static/media/Resume - Lofranco, Patrick William Q.pdf": "/Patrick-Lofranco-Portfolio/static/media/Resume - Lofranco, Patrick William Q.2ff8da982d6f77054dfe.pdf",
     "static/media/udmclinic.jpg": "/Patrick-Lofranco-Portfolio/static/media/udmclinic.c3dbce02251f60188276.jpg",
     "static/media/tm.svg": "/Patrick-Lofranco-Portfolio/static/media/tm.9ba52ce76ef6f88ce3057bda5bddc28d.svg",
     "static/media/react.svg": "/Patrick-Lofranco-Portfolio/static/media/react.5d60cc16a8b1fe5b1fc1cf0487edcc69.svg",
@@ -42,10 +42,10 @@
     "static/media/css.svg": "/Patrick-Lofranco-Portfolio/static/media/css.315b8fdb9dbf75ae965b80bf368895cd.svg",
     "static/media/html.svg": "/Patrick-Lofranco-Portfolio/static/media/html.0107c93943a8f415b5db64ebb0a9d12d.svg",
     "main.beea4158.css.map": "/Patrick-Lofranco-Portfolio/static/css/main.beea4158.css.map",
-    "main.8269e6c3.js.map": "/Patrick-Lofranco-Portfolio/static/js/main.8269e6c3.js.map"
+    "main.a6877e36.js.map": "/Patrick-Lofranco-Portfolio/static/js/main.a6877e36.js.map"
   },
   "entrypoints": [
     "static/css/main.beea4158.css",
-    "static/js/main.8269e6c3.js"
+    "static/js/main.a6877e36.js"
   ]
 }
