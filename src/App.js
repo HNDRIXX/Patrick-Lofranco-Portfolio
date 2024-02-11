@@ -185,7 +185,9 @@ function App() {
 
                                 <p>I'm Patrick William Lofranco, and I am a passionate Developer, Designer, and Programmer. With a strong foundation in these fields, I strive to create exceptional digital experiences that combine functionality, aesthetics, and user satisfaction.<br /><br />
                                     Furthermore, my programming skills allow me to take on complex projects and develop customized solutions tailored to specific needs. I enjoy the challenge of problem-solving and take pride in writing clean and efficient code. Whether it's building interactive  applications or optimizing existing systems, I am committed to delivering high-quality solutions.</p>
-                                <a className='btn' href={resumeFile} download>Download Resume</a>
+                                <div className='resumeBtn'>
+                                    <a className='btn' href={resumeFile} download>Download Resume</a>
+                                </div>
                             </div>
                         </FadeInSection>
                     </div>
@@ -216,7 +218,7 @@ function App() {
                                             (isDarkMode ? 'whiteImg' : '')
                                         } />
                                         <img src={sequalizeIcon} title='Seq'  
-                                             className={'tech-icon ' + (isDarkMode && 'whiteImg')}
+                                             className='tech-icon'
                                         />
                                         <img src={nodeIcon} title='Node' className='tech-icon'/>
                                         <img src={npmIcon} title='NPM' className='tech-icon'/>
@@ -267,7 +269,7 @@ function App() {
 
                                 <div className="mobileproject-text">
                                     <h2><b>Mobile Library System Management</b></h2>
-                                    <p>Mobile Library System Management is my Capstone Project, the aim was to create an effective system that improves the efficiency, accessibility, and overall experience of library management. It also contains Artificial Intelligence that can scan a book even detect and determine whether the book is existing and available, as well as provide the specific location and related book recommendations based on what the user scans.</p><br />
+                                    <p>Mobile Library System Management is my Capstone Project, the aim was to create an effective system that improves the efficiency, accessibility, and overall experience of library management. It also contains Machine Learning that can scan a book even detect and determine whether the book is existing and available, as well as provide the specific location and related book recommendations based on what the user scans.</p><br />
                                     <div className='tech-stack'>
                                         <img src={androidIcon} title='Android' className='tech-icon'/>
                                         <img src={javaIcon} title='Java' className='tech-icon'/>
@@ -333,10 +335,10 @@ function App() {
                         <FadeInSection>
                             <ProjectDisplay
                                 imageSrc={udmClinicPrj}
-                                title="UDM Clinic"
+                                title="UDM Clinic System"
                                 description={
                                     <>
-                                        Universidad De Manila Clinic System is a second-year group project that I reconstructed into my own version with a different  language stack. With a focus on improving user experience and efficiency, revamped system seamlessly integrates appointment scheduling, medical record management, and communication between patients and healthcare providers.
+                                        Universidad De Manila Clinic System is my second-year group project. With a focus on improving user experience and efficiency, revamped system seamlessly integrates appointment scheduling, medical record management, and communication between patients and healthcare providers.
                                     </>
                                 }
                                 techStack={[pythonIcon, bsIcon, djIcon]}
@@ -364,7 +366,7 @@ function App() {
                                 title="Web Library Management System"
                                 description={
                                     <>
-                                        Web Library Management System is the web version of my Mobile Library System Management Capstone Project. The Web Library Management System serves as an expansion of the Mobile Library System Management, offering users a web-based interface for enhanced accessibility. It provides a seamless transition for patrons who can now browse the library's catalog, reserve books and more.
+                                        Web Library Management System is the web version of my Mobile Library System Management Capstone Project. The Web Library Management System serves as an expansion of the Mobile Library System Management, offering users a web-based interface for enhanced accessibility.
                                     </>
                                 }
                                 techStack={[htmlIcon, cssIcon, jsIcon, fireBaseIcon]}
@@ -378,7 +380,7 @@ function App() {
                                 title="WorkIT"
                                 description={
                                     <>
-                                        WorkIT Gym Management System is my third-year system project. The goal of this system was to modernize gym operations and member management. This all-inclusive system includes features including membership registration, offering gym training plan packages, attendance tracking, and progress tracking. With its user-friendly interface and advanced reporting features.
+                                        WorkIT Gym Management System is my third-year system project. The goal of this system was to modernize gym operations and member management. This system provides features including membership registration, offering gym training plan packages, attendance tracking, progress tracking and advanced reporting features.
                                     </>
                                 }
                                 techStack={[htmlIcon, cssIcon, jsIcon, phpIcon, sqlDbIcon]}
@@ -392,7 +394,7 @@ function App() {
                                 title="PuriWater"
                                 description={
                                     <>
-                                        PuriWater is a Water Refilling Management System that I had planned to implement in our local Water Refilling Station. The primary goal of PuriWater is to provide a seamless and user-friendly platform that enhances the overall customer experience. From the moment a customer places an order to the delivery of purified water, the system will ensure a smooth and hassle-free process.
+                                        PuriWater is a my Water Refilling Management System Project, implemented in our local Water Refilling Station. The primary goal of PuriWater is to provide a seamless experience. From the moment a customer places an order to the delivery of purified water, the system will ensure a smooth and hassle-free process.
                                     </>
                                 }
                                 techStack={[htmlIcon, cssIcon, jsIcon, phpIcon, sqlDbIcon]}

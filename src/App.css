@@ -222,6 +222,8 @@ h1{
 .about {
     padding-top: 6em;
     text-align: justify;
+    word-break: break-all;
+    hyphens: auto;
 }
 
 #about-title, #prj{
@@ -229,6 +231,11 @@ h1{
     text-align: center;
     padding-bottom: .8em;
     font-weight: bolder !important;
+}
+
+.resumeBtn{
+    display: flex;
+    justify-content: center;
 }
 
 .btn {
@@ -246,6 +253,7 @@ h1{
     border: 2px solid var(--color);
     border-radius: 8px;
     position: relative;
+    
 }
   
 .btn::before {
@@ -296,6 +304,8 @@ h1{
     text-justify: distribute;
     text-align-last: left;
     margin-bottom: 1em;
+    word-break: break-all;
+    hyphens: auto;
 }
 
 /* .tech-stack{
@@ -597,6 +607,8 @@ h1{
     
     .project-text p{
         text-align: justify;
+        word-break: break-all;
+        hyphens: auto;
         text-justify: distribute;
         text-align-last: left;
         margin-bottom: 1em;
@@ -651,6 +663,8 @@ h1{
 
     .mobileproject-text p{
         text-align: justify;
+        word-break: break-all;
+        hyphens: auto;
         text-justify: distribute;
         text-align-last: left;
     }
@@ -777,6 +791,8 @@ h1{
         /* width: 80vw; */
         text-align: justify;
         text-justify: distribute;
+        word-break: break-all;
+        hyphens: auto;
         text-align-last: left;
         margin-bottom: 1em;
     }
@@ -846,6 +862,8 @@ h1{
     .mobileproject-text p{
         text-align: justify;
         text-justify: distribute;
+        word-break: break-all;
+        hyphens: auto;
         text-align-last: left;
     }
 
