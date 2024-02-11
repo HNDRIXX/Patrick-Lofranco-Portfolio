@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Patrick-Lofranco-Portfolio/static/css/main.2b406e8c.css",
-    "main.js": "/Patrick-Lofranco-Portfolio/static/js/main.7e712e1e.js",
+    "main.css": "/Patrick-Lofranco-Portfolio/static/css/main.cd182ee7.css",
+    "main.js": "/Patrick-Lofranco-Portfolio/static/js/main.73e9222e.js",
     "static/media/pwd.png": "/Patrick-Lofranco-Portfolio/static/media/pwd.6ae4760e789578527c7f.png",
     "static/media/hrdotnetmobile.png": "/Patrick-Lofranco-Portfolio/static/media/hrdotnetmobile.2c6f91ec3d133903803e.png",
     "static/media/serbisyofinder.png": "/Patrick-Lofranco-Portfolio/static/media/serbisyofinder.cfc165a6af0916f766a7.png",
@@ -43,11 +43,11 @@
     "static/media/gmail.svg": "/Patrick-Lofranco-Portfolio/static/media/gmail.a6117a27b82c2821412915ed635cb042.svg",
     "static/media/css.svg": "/Patrick-Lofranco-Portfolio/static/media/css.60e23942f41d4dc73de0d271b4453605.svg",
     "static/media/html.svg": "/Patrick-Lofranco-Portfolio/static/media/html.bfc29cc664956a7748f9ee78fa82ec7b.svg",
-    "main.2b406e8c.css.map": "/Patrick-Lofranco-Portfolio/static/css/main.2b406e8c.css.map",
-    "main.7e712e1e.js.map": "/Patrick-Lofranco-Portfolio/static/js/main.7e712e1e.js.map"
+    "main.cd182ee7.css.map": "/Patrick-Lofranco-Portfolio/static/css/main.cd182ee7.css.map",
+    "main.73e9222e.js.map": "/Patrick-Lofranco-Portfolio/static/js/main.73e9222e.js.map"
   },
   "entrypoints": [
-    "static/css/main.2b406e8c.css",
-    "static/js/main.7e712e1e.js"
+    "static/css/main.cd182ee7.css",
+    "static/js/main.73e9222e.js"
   ]
 }
