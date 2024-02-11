@@ -4,6 +4,7 @@ nav{
     height: 80px;
     width: 100%;
     position: fixed;
+
 }
 
 label.logo{
@@ -67,6 +68,11 @@ a.active,a:hover{
 }
 
 .nav-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrapper{
     display: flex;
     justify-content: space-between;
 }

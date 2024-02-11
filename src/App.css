@@ -1,5 +1,8 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;800&display=swap');
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
 
 *{
     padding: 0;
@@ -9,11 +12,47 @@
     list-style: none;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-    transition: ease-in-out .4s;
+}
+
+body {
+    transition: ease-in-out .4s !important;
+
 }
 
 .App {
     text-align: center;
+}
+
+.dark-mode {
+    background-color: #1f1f1f !important;
+}
+
+.dark-mode p, .dark-mode h1, .dark-mode h2, .dark-mode h3, .dark-mode h4, .dark-mode h5, .dark-mode h6 {
+    color: white;
+}
+
+.dark-mode .btn {
+    color: #ffff;
+    border: 2px solid #ffff;
+}
+
+/* .dark-mode .tech-stack a, .dark-mode .tech-stack a img {
+    background-color: white;
+    filter: brightness(0) invert(1);
+} */
+  
+.dark-mode .btn::before {
+    position: absolute;
+    content: "";
+    background: white;
+    width: 300px;
+    height: 200px;
+    z-index: -1;
+    border-radius: 50%;
+}
+  
+.dark-mode .btn:hover {
+    color: #1f1f1f;
 }
 
 .actives { 
@@ -163,6 +202,10 @@ b{
     width: 23em;
 }
 
+.whiteImg {
+    filter: brightness(0) invert(1);
+}
+
 img{
     user-drag: none;
     -webkit-user-drag: none;
@@ -182,7 +225,8 @@ h1{
 }
 
 #about-title, #prj{
-    font-size: 3em;
+    font-size: 4em;
+    text-align: center;
     padding-bottom: .8em;
     font-weight: bolder !important;
 }
@@ -200,7 +244,7 @@ h1{
     z-index: 1;
     color: var(--color);
     border: 2px solid var(--color);
-    border-radius: 6px;
+    border-radius: 8px;
     position: relative;
 }
   
@@ -241,10 +285,10 @@ h1{
 
 .project-text{
     text-align: left;
-    font-size: 1vw;
-    /* width: 60vw; */
+    font-size: 16px;
+    width: 100%;
     padding: 0px 0px 0px 30px;
-    transition: all .4s !important;
+    /* transition: all .4s !important; */
 }
 
 .project-text p{
@@ -261,15 +305,18 @@ h1{
 .tech-stack img{
     width: 30px;
     margin-left: -5px;
-    margin-right: 12px;
+}
+
+.tech-stack .tech-icon {
+    margin-right: 19px;
 }
  
 .tech-stack a{
     outline: none;
     border: none;
     text-decoration: none;
-    padding: 6px 10px 5px 10px;
-    border-radius: 5px;
+    padding: 6px 5px 5px 10px;
+    border-radius: 90px;
     background: #1b1b1b;
     /* margin: 1px; */
     float: right;   
@@ -293,6 +340,26 @@ h1{
     -webkit-box-shadow: 10px 10px 50px #4d4d4d46;
     box-shadow: 10px 10px 30px #4d4d4d46;
     transition: ease-in-out .3s;
+    
+}
+
+.mobilePrjImg{
+    padding-bottom: 5em;
+    -webkit-filter: drop-shadow(5px 5px 5px #4e4e4e);
+    filter: drop-shadow(5px 5px 5px #4e4e4e);
+    transition: ease-in-out .3s;
+}
+
+.mobilePrj1 {
+    width: 28em;
+}
+
+.mobilePrj2{
+    width: 21em;
+}
+
+.mobilePrj3{
+    width: 16em;
 }
 
 .mobileproject-display{
@@ -308,8 +375,10 @@ h1{
 
 .mobileproject-text{
     text-align: left;
-    font-size: 1vw;
-    padding: 50px 100px 50px 80px;
+    font-size: 16px;
+    width: 100%;
+
+    padding: 0px 100px 100px 80px;
 }
  
 .mobileproject-text p{
@@ -333,7 +402,6 @@ h1{
     transform: scale(1.1);
 }
 
-
 .mobile img{
     margin-top: 2px;
     border-radius: 50px 50px 30px 30px;
@@ -341,7 +409,7 @@ h1{
     width: 220px;
 }
 
-.imgPrj1:hover{
+.imgPrj1:hover, .mobilePrjImg:hover{
     transform: scale(1.1);
 }
 
@@ -350,33 +418,6 @@ h1{
     border-radius: 6px 6px 30px 30px;
     height: 412px;
     width: 219.1px;
-}
-
-.phone {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 240px;
-    height: 450px;
-    background: #32323b;
-    border-radius: 30px;
-    padding: 10px;
-}
-
-.phone-mirror {
-    position: relative;
-    width: 240px;
-    height: 430px;
-    background-color: #ffffff;
-    border-radius: 30px;
-}
-
-.phone-mirror-two{
-    position: relative;
-    width: 240px;
-    height: 430px;
-    background-color: #003c58;
-    border-radius: 30px;
 }
 
 .topWrapper {
@@ -479,6 +520,27 @@ h1{
     width: 85px;
 }
 
+.ftr {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 10px 5px #bdbdbd, 0px 8px 20px #b8b8b8;
+    background-color: #272626;
+}
+
+.ftr span {
+    font-size: 13px;
+}
+
+.ftr img {
+    flex-direction: row;
+    margin-right: 10px;
+    row-gap: 2em;
+    width: 25px;
+}
+
 @media screen and (min-width: 768px) and (max-width: 1210px) {
     #hello{
         font-size: .9em;
@@ -560,6 +622,14 @@ h1{
     .imgPrj1{
         margin-top: 20px;
         width: 80vw;
+    }
+
+    .mobilePrj1 {
+        width: 45vw;
+    }
+
+    .mobilePrj2 {
+        width: 30vw;
     }
 
     .imgPrj1:hover{
@@ -672,8 +742,13 @@ h1{
         display: contents;
     }
 
-    #about-title, #prj{
-        text-align: left;
+    #about-title{
+        font-size: 3em;
+        /* text-align: left; */
+    }
+
+    #prj {
+        font-size: 2.7em !important;
     }
 
     #contacts{
@@ -716,7 +791,7 @@ h1{
 
     .tech-stack a{
         margin: 0px;
-        float: none;   
+        float: right;   
     }
     
     .tech-stack a img{
@@ -731,6 +806,22 @@ h1{
         margin-top: 20px;
         width: 83.5vw;
         display: inline-block;
+    }
+
+    .mobilePrjImg{
+        padding-bottom: 2em;
+    }
+
+    .mobilePrj1 {
+        width: 74vw;
+    }
+
+    .mobilePrj2 {
+        width: 55vw;
+    }
+
+    .mobilePrj3 {
+        width: 47vw;
     }
 
     .imgPrj1:hover{
@@ -758,8 +849,8 @@ h1{
         text-align-last: left;
     }
 
-    .mobile:hover,.mobile-two:hover{
-        transform: scale(1.0);
+    .mobile:hover,.mobile-two:hover, .mobilePrjImg:hover{
+        transform: none;
     }    
 
     #contacts{
@@ -795,5 +886,14 @@ h1{
 
     #gitImg{
         width: 60px;
+    }
+    
+    .ftr span {
+        width: 50vw;
+        font-size: 12px;
+    }
+    
+    .ftr img {
+        width: 20px;
     }
   }
