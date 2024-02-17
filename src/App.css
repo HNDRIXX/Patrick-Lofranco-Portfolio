@@ -221,9 +221,7 @@ h1{
 
 .about {
     padding-top: 6em;
-    text-align: justify;
-    word-break: break-all;
-    hyphens: auto;
+    text-align: left;
 }
 
 #about-title, #prj{
@@ -304,8 +302,7 @@ h1{
     text-justify: distribute;
     text-align-last: left;
     margin-bottom: 1em;
-    word-break: break-all;
-    hyphens: auto;
+
 }
 
 /* .tech-stack{
@@ -575,6 +572,10 @@ h1{
         font-size: 14px;
     }
 
+    .about p {
+        text-align: justify;
+    }
+
     .about h1{
         color: #232526;
         margin-top: -1em;
@@ -607,9 +608,6 @@ h1{
     
     .project-text p{
         text-align: justify;
-        word-break: break-all;
-        hyphens: auto;
-        text-justify: distribute;
         text-align-last: left;
         margin-bottom: 1em;
     }
@@ -663,9 +661,6 @@ h1{
 
     .mobileproject-text p{
         text-align: justify;
-        word-break: break-all;
-        hyphens: auto;
-        text-justify: distribute;
         text-align-last: left;
     }
 
@@ -732,6 +727,13 @@ h1{
     .about{
         font-size: 13px;
         padding-top: 0;
+    }
+
+    .about p {
+        text-align: justify;
+        word-break: break-all;
+        hyphens: auto;
+        text-justify: distribute;
     }
 
     .more-btn{
